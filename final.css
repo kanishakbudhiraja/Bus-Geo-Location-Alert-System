@@ -1,0 +1,48 @@
+.hello {
+	
+	border: 20px solid #D43F3F	;	
+	padding: 40px;
+	max-width: 630px;
+	width: 70%;
+	margin: 20px auto;
+	font-family: 'Raleway', sans-serif;
+	background-color: #f0e6e6;
+	
+
+}
+
+h1 {
+	border-bottom: solid #D43F3F;	
+	padding-bottom: 10px;
+
+}
+
+#small {
+	padding-left: 20%;
+	padding-right: 20%;
+}	
+
+#big {
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 30px;
+}
+
+#alert {
+	margin-left: 30%;
+	border-radius: 15px;
+}
+
+#brake {
+	margin-right: 8%;
+	border-radius: 15px;
+}
+
+#yo {
+	border: 4px solid #dc3545;
+}
+
+#fo {
+	border: 4px solid #28a745;
+	border-radius: 15px;
+}

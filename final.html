@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoLocation App</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="final.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hello">
+        <h1 class="h2 text-center font-weight-bold">Geo-Location Alert System</h1>
+        <br>
+        <br>
+        <h3 class="h2 text-center"><span id="location">CITY NAME</span></h3>
+        <br>
+        <br>
+        <div id="small">
+            <button id="yo" type="button" class="btn btn-outline-danger btn-lg btn-block"><img src="https://img.icons8.com/ios/50/000000/place-marker--v2.png"/> Request Location</button>
+        </div>    
+        <br>
+        <br>
+        <div id="big">
+            <button id="fo" type="button" id="big" class="btn btn-outline-success btn-lg btn-block"><img src="https://img.icons8.com/wired/64/000000/microphone.png"/> ANNOUNCE</button>            
+        </div>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <button id="alert" type="button" class="btn btn-warning"><img src="https://img.icons8.com/color/48/000000/fire-hazard.png"/><br> Fire-Alert</button>
+                </div>
+                <div class="col-4">
+                    <button id="brake" type="button" class="btn btn-danger"><img src="https://img.icons8.com/color/48/000000/close-window.png"/><br> Brake-Fail</button>
+                </div>
+              </div>
+        </div>
+
+    </div>
+    <script src="final.js"></script>
+</body>
+</html>
